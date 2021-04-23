@@ -15,13 +15,11 @@ namespace CoachAndLaw.DataAccessLayer
 {
     public class MenteeInformationDAL : BaseDAL , IMenteeInformationDAL
     {
-        ///private string connectionString;
 
         public MenteeInformationDAL(IOptions<ConnectionStringConfig> config) : base(config)
         {
            
         }
-
 
         /// <summary>
         ///  Returns MenteeInformationDTO
